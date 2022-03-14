@@ -1,3 +1,5 @@
-.input {
-  margin: 20px;
+.form-control {
+  padding: 5px 0;
+  border: 1px solid #ccc;
+  box-shadow: inset 1px 3px 5px 0px #ccc;
 }
