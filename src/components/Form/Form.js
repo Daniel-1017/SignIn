@@ -6,28 +6,15 @@ const Form = () => {
   return (
     <section>
       <Container className={classes.container}>
-        <form className="w-100">
-          <div className="form-row d-flex justify-content-between ">
-            <div className="form-group col-md-5 d-flex align-items-center">
-              <label htmlFor="inputEmail4">Email</label>
-              <input
-                type="email"
-                className={`form-control ${classes.input}`}
-                id="inputEmail4"
-                placeholder="Email"
-              />
-            </div>
-            <div className="form-group col-md-5 d-flex align-items-center">
-              <label htmlFor="inputPassword4" className="mr-4">
-                Password
-              </label>
-              <input
-                type="password"
-                className={`form-control ${classes.input}`}
-                id="inputPassword4"
-                placeholder="Password"
-              />
-            </div>
+        <form className="w-100 d-flex justify-content-between flex-wrap">
+          <div className="col-md-5 d-flex align-items-center mb-2">
+            <label htmlFor="inputEmail4">Email</label>
+            <input
+              type="email"
+              className={`form-control ${classes.input}`}
+              id="inputEmail4"
+              placeholder="Email"
+            />
           </div>
         </form>
       </Container>
