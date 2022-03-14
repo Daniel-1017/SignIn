@@ -18,6 +18,13 @@ export const inputData = [
     label: "Claim stage",
     htmlFor: "claim-stage",
     inputType: "text",
-    hasCheckbox: false,
+    hasCheckbox: true,
+  },
+  {
+    id: 4,
+    label: "Claim status",
+    htmlFor: "claim-status",
+    inputType: "text",
+    hasCheckbox: true,
   },
 ];
